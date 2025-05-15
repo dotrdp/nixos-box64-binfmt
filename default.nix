@@ -526,7 +526,7 @@ let
     owner = "ptitSeb";
     repo = "box64";
     rev = "main";
-    sha256 = "sha256-v0vAAvNiQsvzQUu3Yy5ZzCwyC1kP+RwQXi27buHCu9w=";
+    sha256 = "sha256-55kNxQ/aDIRFFp7qFrevQpAKHXa6VWbSSfyZGbm1kJ0=";
   };
 in
 
@@ -717,7 +717,7 @@ in {
 
     # nix.settings.extra-platforms = config.boot.binfmt.emulatedSystems;
     nix.settings.extra-platforms = ["i686-linux" "x86_64-linux" "i386-linux" "i486-linux" "i586-linux" "i686-linux"];
-    nixpkgs.config.allowUnsupportedSystem = true;
+
 
 
     environment.systemPackages = with pkgs; let 
@@ -764,9 +764,9 @@ in {
       steamx86Wrapper
       #pkgs.pkgsCross.gnu32.steam
       steamFHS
-      # box64-bleeding-edge
+      box64-bleeding-edge
       pkgs.x86.bash #(now this one appears with whereis bash)
-      muvm
+      # muvm
       # additional steam-run tools
       # steam-tui steamcmd steam-unwrapped
 
