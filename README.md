@@ -62,6 +62,10 @@ Then, in your `configuration.nix` or equivelent:
 { pkgs, inputs, ... }:
 
 {
+  imports = [
+    inputs.box64-binfmt.nixosModules.default
+  ];
+
   box64-binfmt.enable = true; # Enable 
 
   environment.systemPackages = [
