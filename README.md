@@ -7,8 +7,8 @@ It provides its own `box64-bleeding-edge` package, with the bleeding edge change
 
 This flake will also automatically add
 ```nix
-    boot.binfmt.emulatedSystems = ["i686-linux" "x86_64-linux" "i386-linux" "i486-linux" "i586-linux" "i686-linux"];
-    nix.settings.extra-platforms = ["i686-linux" "x86_64-linux" "i386-linux" "i486-linux" "i586-linux" "i686-linux"];
+boot.binfmt.emulatedSystems = ["i686-linux" "x86_64-linux" "i386-linux" "i486-linux" "i586-linux" "i686-linux"];
+nix.settings.extra-platforms = ["i686-linux" "x86_64-linux" "i386-linux" "i486-linux" "i586-linux" "i686-linux"];
 ```
 To your config, this makes it possible for your `aarch64` system to build the x86 applications or fetch them from `cache.nixos.org`. Note that if a package has to be built, it will likely take a long time, cuz this uses `qemu` emulation.
 
