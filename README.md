@@ -84,5 +84,4 @@ Then, in your `configuration.nix` or equivelent:
 #### Todo
 - GitHub action to auto update box64 according to the latest commits?
 - Proper README
-- Mechanism to install packages from other architectures, like `steam`, `steamcmd`, even when not supported? Maybe with `quemu`? Maybe under `pkgs.x86.<pkg>` if possible.
 - `steam` is still not launching, see [this issue](https://github.com/ptitSeb/box64/issues/2478) to track it
