@@ -12,7 +12,6 @@ let
 
   # Grouped common libraries needed for the FHS environment (64-bit ARM versions)
   steamLibs = with pkgs; [
-    x86.unityhub
     harfbuzzFull
     glibc glib.out gtk2 gdk-pixbuf pango.out cairo.out fontconfig libdrm libvdpau expat util-linux at-spi2-core libnotify
     gnutls openalSoft udev xorg.libXinerama xorg.libXdamage xorg.libXScrnSaver xorg.libxcb libva gcc-unwrapped.lib libgccjit
@@ -20,7 +19,7 @@ let
     xorg.libXcursor xorg.libXi xorg.libXcomposite xorg.libXtst xorg.libSM xorg.libICE libGL libglvnd freetype
     openssl curl zlib dbus-glib ncurses
     
-    libva mesa.drivers mesa
+    libva mesa
     ncurses5 ncurses6 ncurses
     pkgs.curl.out
     libcef # (https://github.com/ptitSeb/box64/issues/1383)?
@@ -118,7 +117,6 @@ let
     fribidi.out brotli.out
   ];
   steamLibsI686 = with pkgs.pkgsCross.gnu32; [
-    x86.unityhub
     glibc
     glib.out
     gtk2
