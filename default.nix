@@ -754,16 +754,6 @@ in {
       # steam-related packages
       glmark2-x86
       box64-fhs
-      unstable.fex # idfk man
-      #steamx86
-      pkgs.x86.steam-unwrapped
-      # pkgs.x86.heroic-unwrapped
-      # steamcmdx86Wrapper
-      # x86pkgs.steamcmd
-      # heroicx86Wrapper
-      steamx86Wrapper
-      #pkgs.pkgsCross.gnu32.steam
-      steamFHS
       box64-bleeding-edge
       pkgs.x86.bash #(now this one appears with whereis bash)
       # muvm

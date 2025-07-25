@@ -1,0 +1,335 @@
+Running phase: unpackPhase
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking source archive /nix/store/39wh6k71mcklrrg4avkpqyirr8p6ifwq-source
+source root is source
+Running phase: patchPhase
+@nix { "action": "setPhase", "phase": "patchPhase" }
+Running phase: updateAutotoolsGnuConfigScriptsPhase
+@nix { "action": "setPhase", "phase": "updateAutotoolsGnuConfigScriptsPhase" }
+Running phase: configurePhase
+@nix { "action": "setPhase", "phase": "configurePhase" }
+fixing cmake files...
+cmake flags: -DCMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DCMAKE_INSTALL_LOCALEDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/share/locale -DCMAKE_INSTALL_LIBEXECDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/libexec -DCMAKE_INSTALL_LIBDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/lib -DCMAKE_INSTALL_DOCDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/share/doc/box64 -DCMAKE_INSTALL_INFODIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/share/info -DCMAKE_INSTALL_MANDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/share/man -DCMAKE_INSTALL_INCLUDEDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/include -DCMAKE_INSTALL_SBINDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/sbin -DCMAKE_INSTALL_BINDIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/bin -DCMAKE_INSTALL_NAME_DIR=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7/lib -DCMAKE_POLICY_DEFAULT_CMP0025=NEW -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_STRIP=/nix/store/93spmf188qkl70b3816g6kkqzlgvs4vc-gcc-wrapper-14.3.0/bin/strip -DCMAKE_RANLIB=/nix/store/93spmf188qkl70b3816g6kkqzlgvs4vc-gcc-wrapper-14.3.0/bin/ranlib -DCMAKE_AR=/nix/store/93spmf188qkl70b3816g6kkqzlgvs4vc-gcc-wrapper-14.3.0/bin/ar -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_INSTALL_PREFIX=/nix/store/x7499vvy9gh1pac7r0aazcpmd4k6vbbh-box64-bleeding-edge-b472459a22169c1bf1932f5e69577ac149c1b2d7 -DNOGIT:BOOL=TRUE -DARM64:BOOL=TRUE -DRV64:BOOL=FALSE -DPPC64LE:BOOL=FALSE -DLARCH64:BOOL=FALSE -DARM_DYNAREC:BOOL=TRUE -DRV64_DYNAREC:BOOL=FALSE -DLARCH64_DYNAREC:BOOL=FALSE -DBOX32:BOOL=TRUE -DBOX32_BINFMT:BOOL=TRUE
+-- Found Python3: /nix/store/chgczp3c2zsr14bxkx9vfwsywajbgbgg-python3-3.13.5/bin/python3.13 (found version "3.13.5") found components: Interpreter
+-- The C compiler identification is GNU 14.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /nix/store/93spmf188qkl70b3816g6kkqzlgvs4vc-gcc-wrapper-14.3.0/bin/gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/93spmf188qkl70b3816g6kkqzlgvs4vc-gcc-wrapper-14.3.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.1s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    BUILD_TESTING
+    CMAKE_CXX_COMPILER
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_DOCDIR
+    CMAKE_INSTALL_INCLUDEDIR
+    CMAKE_INSTALL_INFODIR
+    CMAKE_INSTALL_LIBDIR
+    CMAKE_INSTALL_LIBEXECDIR
+    CMAKE_INSTALL_LOCALEDIR
+    CMAKE_INSTALL_MANDIR
+    CMAKE_INSTALL_SBINDIR
+    CMAKE_POLICY_DEFAULT_CMP0025
+
+[0m
+-- Build files have been written to: /build/source/build
+cmake: enabled parallel building
+cmake: enabled parallel installing
+Running phase: buildPhase
+@nix { "action": "setPhase", "phase": "buildPhase" }
+build flags: -j8 SHELL=/nix/store/fkxvlai6grfi6nngzgp0vahi235nhkq3-bash-5.2p37/bin/bash
+[  1%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/dynablock.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/emu/x64test.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/dynarec_native.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/dynarec_native_functions.c.o[0m
+[  1%] Built target WRAPPERS32
+[  1%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/dynarec_arm64_functions.c.o[0m
+[  1%] Built target WRAPPERS
+[  1%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run0f.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run.c.o[0m
+[01m[K/build/source/src/dynarec/dynarec_native.c:[m[K In function '[01m[KwritePerfMap[m[K':
+[01m[K/build/source/src/dynarec/dynarec_native.c:911:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of '[01m[Kwrite[m[K' declared with attribute '[01m[Kwarn_unused_result[m[K' [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wno-unused-result-Wunused-result]8;;[m[K]
+  911 |     [01;35m[Kwrite(BOX64ENV(dynarec_perf_map_fd), pbuf, strlen(pbuf))[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[  1%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/dynarec_arm64_arch.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run0f.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run64.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run66.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run64.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_helper.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_immenc.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_printer.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_helper.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_emit_tests.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run660f.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run66.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run660f.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run66f20f.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_helper.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_helper.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_emit_tests.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_emit_tests.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_emit_math.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_emit_math.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_emit_logic.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_emit_shift.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_emit_logic.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_00.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_emit_shift.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run66f20f.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/dynarec_arm64_jmpnext.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run66f30f.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run6664.c.o[0m
+[  8%] [32mBuilding ASM object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_prolog.S.o[0m
+[  8%] [32mBuilding ASM object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_epilog.S.o[0m
+[  8%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_emit_tests.c.o[0m
+[  8%] [32mBuilding ASM object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_next.S.o[0m
+[  8%] [32mBuilding ASM object CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_lock.S.o[0m
+/build/source/src/dynarec/arm64/arm64_lock.S: Assembler messages:
+/build/source/src/dynarec/arm64/arm64_lock.S:125: Error: selected processor does not support `swpal x1,x0,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:145: Error: selected processor does not support `swpal w1,w0,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:165: Error: selected processor does not support `swpalh w1,w0,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:185: Error: selected processor does not support `swpalb w1,w0,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:208: Error: selected processor does not support `casal x2,x1,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:234: Error: selected processor does not support `casal w2,w1,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:261: Error: selected processor does not support `casal x2,x1,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:292: Error: selected processor does not support `casal w2,w1,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:320: Error: selected processor does not support `casal w2,w1,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:374: Error: selected processor does not support `swpal w1,wzr,[x0]'
+/build/source/src/dynarec/arm64/arm64_lock.S:408: Error: selected processor does not support `crc32x w0,w0,x3'
+/build/source/src/dynarec/arm64/arm64_lock.S:415: Error: selected processor does not support `crc32b w0,w0,w3'
+make[2]: *** [CMakeFiles/dynarec_native.dir/build.make:243: CMakeFiles/dynarec_native.dir/src/dynarec/arm64/arm64_lock.S.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:178: CMakeFiles/dynarec_native.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[  8%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_0f.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_00.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run66d9.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run66f30f.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_0f.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run66dd.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run66f0.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run6664.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run67.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_emit_math.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run66d9.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run66dd.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run67avx.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run66f0.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run67_32.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run6764_32.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run67.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run670f.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run6766.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_emit_math.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_emit_logic.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64run67660f.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64rund8.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run67avx.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_emit_shift.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run67_32.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64rund9.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runda.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run6764_32.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64rundb.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run670f.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_00.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64rundc.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_64.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run6766.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64rundd.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_64.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64run67660f.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runde.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64rund8.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64rundf.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64rund9.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runf0.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runda.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64rundb.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_emit_logic.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64rundc.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runf20f.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64rundd.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_66.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runde.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64rundf.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_66.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runf30f.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_67.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runf0.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runf20f.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavx.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_67_32.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavx0f.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_67_avx.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_67.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_emit_shift.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_6764_32.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_d8.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runf30f.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_67_32.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavx.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavx0f.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_d9.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_0f.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavx0f38.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavx0f38.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_da.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavx660f.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavx660f.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_db.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_dc.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_dd.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavxf20f.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_de.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_df.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavxf30f.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_67_avx.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_f0.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_6764_32.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_00.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_d8.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavxf20f.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_d9.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_da.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_64.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_db.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_660f.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_dc.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_dd.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavx660f38.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_de.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_df.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_f0.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_66f20f.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavx660f3a.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_66f30f.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_660f.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_6664.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_66f0.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_f20f.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavxf30f.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_0f.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_f30f.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavx660f38.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_0f.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_0f38.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_66f20f.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_66f30f.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavxf20f38.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_6664.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavxf30f38.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_66f0.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavxf20f3a.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/test_interpreter.dir/src/emu/x64runavxf30f3a.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_f20f.c.o[0m
+[ 28%] Built target test_interpreter
+[ 28%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_f30f.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_66.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_0f.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_67.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavx660f3a.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_0f38.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f38.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavxf20f38.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavxf30f38.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavxf20f3a.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/interpreter.dir/src/emu/x64runavxf30f3a.c.o[0m
+[ 30%] Built target interpreter
+[ 31%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_67_32.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f.c.o[0m
+[ 31%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_67_avx.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f38.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f3a.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f38.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f3a.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f3a.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_64.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f38.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f3a.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f38.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_6764_32.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_66.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_d8.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_d9.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_67.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_da.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_db.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_dc.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass1.dir/src/dynarec/dynarec_native_pass.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_dd.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_de.c.o[0m
+[ 34%] Built target native_pass1
+[ 34%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_67_32.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f38.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_df.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass0.dir/src/dynarec/dynarec_native_pass.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_f0.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_67_avx.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_6764_32.c.o[0m
+[ 35%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_d8.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_660f.c.o[0m
+[ 36%] Built target native_pass0
+[ 36%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_66f20f.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_d9.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_66f30f.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_6664.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_66f0.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_da.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_db.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_dc.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_dd.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_f20f.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_f30f.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_0f.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_0f38.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f38.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f3a.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_de.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f38.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f3a.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f38.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass2.dir/src/dynarec/dynarec_native_pass.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_df.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_f0.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_660f.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_66f20f.c.o[0m
+[ 39%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_66f30f.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_6664.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_66f0.c.o[0m
+[ 40%] Built target native_pass2
+[ 40%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_f20f.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_f30f.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_0f.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_0f38.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f38.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_66_0f3a.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f38.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_f2_0f3a.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/arm64/dynarec_arm64_avx_f3_0f38.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/native_pass3.dir/src/dynarec/dynarec_native_pass.c.o[0m
+[ 42%] Built target native_pass3
+make: *** [Makefile:166: all] Error 2
