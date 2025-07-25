@@ -12,7 +12,7 @@ let
 
   # Grouped common libraries needed for the FHS environment (64-bit ARM versions)
   steamLibs = with pkgs; [
-    unityhub
+    x86.unityhub
     harfbuzzFull
     glibc glib.out gtk2 gdk-pixbuf pango.out cairo.out fontconfig libdrm libvdpau expat util-linux at-spi2-core libnotify
     gnutls openalSoft udev xorg.libXinerama xorg.libXdamage xorg.libXScrnSaver xorg.libxcb libva gcc-unwrapped.lib libgccjit
@@ -118,7 +118,7 @@ let
     fribidi.out brotli.out
   ];
   steamLibsI686 = with pkgs.pkgsCross.gnu32; [
-    unityhub
+    x86.unityhub
     glibc
     glib.out
     gtk2
